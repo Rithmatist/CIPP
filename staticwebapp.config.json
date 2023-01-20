@@ -10,6 +10,7 @@
       "AzureKeyVault"
     ]
   }
+}
   "routes": [
     {
       "route": "/static/*",
