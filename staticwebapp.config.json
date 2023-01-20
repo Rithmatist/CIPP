@@ -1,4 +1,15 @@
 {
+  "networking": {
+    "allowedIpRanges": [
+      "195.81.164.34/324",
+      "20.71.99.140/32",
+      "31.187.130.84/32",
+      "92.70.35.229/32",
+      "45.145.110.104/32",
+      "AppService",
+      "AzureKeyVault"
+    ]
+  }
   "routes": [
     {
       "route": "/static/*",
