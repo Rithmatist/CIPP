@@ -134,7 +134,7 @@ const Setup = () => {
                 <>
                   <CRow className="mb-3">
                     <CCol md={2} className="mb-3">
-                      <a target="_blank" href={`${getResults.data.refreshUrl}`}>
+                      <a target="_blank" href={`${getResults.data.refreshUrl}`} rel="noopener noreferrer">
                         <CButton color="primary">Refresh Graph Token</CButton>
                       </a>
                     </CCol>
